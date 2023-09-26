@@ -1,0 +1,203 @@
+body
+{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	margin: 0px;
+	padding: 0px;
+	display: block;
+}
+.hide
+{
+	display: none !important;
+}
+.content
+{
+	min-height: unset;
+}
+.border-radius
+{
+	border-radius: 20px;
+}
+
+
+.offcanvas-backdrop.show
+{
+	opacity: 0;
+}
+#sidenavbar:hover
+{
+	cursor: pointer;  	  
+	color: #0076bd;
+}
+svg.svg-inline--fa
+{
+    width: 40%;
+}
+.table > tbody > tr > td:first-child
+{
+    padding-left: 8px; 
+}
+
+
+[data-dropdown-on-hover] .dropdown-menu::before
+{
+	display: none;
+}
+
+.table-responsive
+{
+	width: 100%;
+}
+
+.navbar .dropdown-item
+{
+    font-size: 12.8px;
+    font-weight: unset;
+}
+
+.bg-login
+{
+	backbground-color: #f5f5f5;
+	background-image: url(//portal.nationaldiversitycouncil.org/imgs/portal-header-image-cropped-gradient.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+/** dark background blue **/
+.bg-dark-blue
+{
+	background-color: #063861;
+}
+
+/**background blue**/
+.bg-blue
+{
+	background-color: #008ac9;
+}
+
+.bg-grey
+{
+	backbground-color: #f5f5f5;
+}
+
+/**accent blue **/
+.ac-blue
+{
+	background-color: fff;
+}
+
+/**accent green**/
+.ac-green
+{
+	//background-color: #6fb968;
+	background-color: #42cc69;
+}
+
+
+/** HEADER MENU SECTION **/
+.header-nav a:hover
+{
+	color: #2c89b3;
+}
+
+.header-nav a
+{
+	text-transform: uppercase;
+	font-weight: bold;
+	color: white;
+	text-decoration: none;
+	padding: 20px 10px;
+	margin: 10px 0px;
+}
+
+.section
+{
+
+}
+
+.container
+{
+	width: 80%;
+}
+
+.login-container
+{
+	height: 100vh;
+	margin: auto;
+
+}
+
+.form-container
+{
+	background-color: white;
+	padding: 4em 3em 1em 3em;
+	margin: auto;
+
+}
+
+.text-center
+{
+	text-align: center;
+}
+
+.rounded
+{
+	border-radius: 1em;
+}
+
+.shadow
+{
+	box-shadow: 0 .25em .3rem rgba(0, 0, 0, 0.15) !important;
+	//box-shadow: 0px 0px 20px 0px rgb(0 0 0 / 30%);
+}
+
+.col-header
+{
+	padding: 0.75em;
+	background-color: #f5f5f5;
+	color: #333;
+	border-bottom: 1px solid #ddd;
+}
+
+.col-xl-6
+{
+    flex: 0 0 auto;
+    width: 33.33333333%;
+}
+
+
+
+.login-btn-green
+{
+    --bs-btn-color: #fff !important;
+    --bs-btn-bg: #42cc69 !important;
+    --bs-btn-border-color: #42cc69 !important;
+    --bs-btn-hover-color: #fff !important;
+    --bs-btn-hover-bg: # !important;
+    --bs-btn-hover-border-color: #6fb968 !important;
+    --bs-btn-focus-shadow-rgb: 49,132,253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #6fb968 !important;
+    --bs-btn-active-border-color: #6fb968 !important;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #42cc69 !important;
+    --bs-btn-disabled-border-color: #42cc69 !important;
+}
+
+
+
+
+
+
+
+.titanic
+{
+	float:none;
+}
+
+.ghost
+{
+	opacity: 0;
+}
