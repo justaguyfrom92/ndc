@@ -9,48 +9,46 @@
   </head>
   <body>
     <main class="main" id="top">
-      <nav class="navbar navbar-expand-lg bg-body-tertiary">
-      <div class="d-flex justify-content-between mx-4" style="
-    width: 100%;
-">
-        <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="
-    border: none;
-">
+      
+<nav class="navbar navbar-expand-lg bg-body-tertiary navbar-top fixed-top navbar-expand-lg ps-0" id="navbarCombo" data-navbar-top="combo" data-move-target="#navbarVerticalNav">
+      <div class="d-flex flex-wrap justify-content-between mx-4">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTopCollapse" aria-controls="navbarTopCollapse" aria-expanded="true" aria-label="Toggle navigation" style="border: none; box-shadow: none;">
           <span class="navbar-toggler-icon"></span>
         </button><div class="navbar-brand ms-3 me-1 me-sm-3 d-none d-sm-block">
 		<img src="https://nationaldiversitycouncil.org/wp-content/uploads/2021/02/new-ndc-logo.png" alt="NDC" height="50">
 	</div>
         
-        <div class="navbar-collapse collapse" id="navbarSupportedContent" style="">
-          <ul class="navbar-nav me-auto ms-auto mb-2 mb-lg-0" style="
-">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Dropdown
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                
-                
-              </ul>
-            </li>
-            
-          </ul>
-          
-        </div><ul class="navbar-nav navbar-nav-icons flex-row">
-          <li class="nav-item dropdown"><a class="nav-link lh-1 pe-0" id="navbarDropdownUser" href="#!" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-haspopup="true" aria-expanded="true">
+        <div class="navbar-collapse navbar-top-collapse order-1 order-lg-0 justify-content-center collapse" id="navbarTopCollapse" style="">
+		<ul class="navbar-nav navbar-nav-top" data-dropdown-on-hover="data-dropdown-on-hover">
+			<li class="nav-item px-6 p-lg-2"><a class="nav-link lh-1" href="../dashboard/" role="button" aria-expanded="false">Home</a></li>
+			<li class="nav-item dropdown px-6 p-lg-2">
+				<a class="nav-link dropdown-toggle lh-1" href="#!" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-haspopup="true" aria-expanded="false">Apps</a>
+				<ul class="dropdown-menu">
+					<li><a class="dropdown-item" href="../index.html"><div class="dropdown-item-wrapper">Extra</div></a></li>
+					<li><a class="dropdown-item" href="../index.html"><div class="dropdown-item-wrapper">Extra</div></a></li>
+				</ul>
+			</li>
+			<li class="nav-item dropdown px-6 p-lg-2">
+				<a class="nav-link lh-1" href="../events/" role="button" aria-haspopup="true" aria-expanded="false">Events</a>
+			</li>
+			<li class="nav-item dropdown px-6 p-lg-2">
+				<a class="nav-link dropdown-toggle lh-1" href="#!" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-haspopup="true" aria-expanded="false">Extra</a>
+				<ul class="dropdown-menu">
+					<li><a class="dropdown-item" href="../index.html"><div class="dropdown-item-wrapper">Extra</div></a></li>
+					<li><a class="dropdown-item" href="../index.html"><div class="dropdown-item-wrapper">Extra</div></a></li>
+				</ul>
+			</li>
+			<li class="nav-item px-6 p-lg-2">
+				<a class="nav-link lh-1" href="#!" role="button" aria-expanded="false">Cart</a>
+			</li>
+		</ul>
+	</div><ul class="navbar-nav navbar-nav-icons flex-row">
+          <li class="nav-item dropdown"><a class="nav-link lh-1 pe-0" id="navbarDropdownUser" href="#!" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-haspopup="true" aria-expanded="false">
               <div class="avatar avatar-l ">
                 <img class="rounded-circle " src="https://ndccdn.net/speakers/180x180/jonathan-seiford.jpg" alt="" style="width: 40px; height: 40px;">
               </div>
             </a>
-            <div class="dropdown-menu dropdown-menu-end navbar-dropdown-caret shadow" aria-labelledby="navbarDropdownUser" style="width: 14em;position: fixed;top: 95px;margin-right: 20px;margin-left: 20px;height: unset;" data-bs-popper="static">
+            <div class="dropdown-menu dropdown-menu-end navbar-dropdown-caret shadow" aria-labelledby="navbarDropdownUser" style="width: 14em;position: fixed;top: 95px;margin-right: 20px;margin-left: 20px;height: unset;">
               <div class="card border-0">
                 <div class="card-body p-0">
                   <div class="text-center pt-4 pb-3">
@@ -90,7 +88,7 @@
         <div class="w-100">
           <div class="d-flex flex-between-center dual-nav-first-layer">
             <div class="navbar-logo">
-              <button class="btn navbar-toggler navbar-toggler-humburger-icon hover-bg-transparent collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTopCollapse" aria-controls="navbarTopCollapse" aria-expanded="false" aria-label="Toggle Navigation"><span class="navbar-toggle-icon"><span class="toggle-line"></span></span></button>
+              <button class="btn navbar-toggler navbar-toggler-humburger-icon hover-bg-transparent" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTopCollapse" aria-controls="navbarTopCollapse" aria-expanded="true" aria-label="Toggle Navigation"><span class="navbar-toggle-icon"><span class="toggle-line"></span></span></button>
               <a class="navbar-brand me-1 me-sm-3" href="index.html">
                 <div class="d-flex align-items-center">
                   <div class="d-flex align-items-center"><img src="https://prium.github.io/phoenix/v1.13.0/assets/img/icons/logo.png" alt="phoenix" width="27">
@@ -411,7 +409,7 @@
               </li>
             </ul>
           </div>
-          <div class="navbar-collapse navbar-top-collapse justify-content-center collapse" id="navbarTopCollapse" style="">
+          <div class="navbar-collapse navbar-top-collapse justify-content-center collapse show" id="navbarTopCollapse" style="">
             <ul class="navbar-nav navbar-nav-top" data-dropdown-on-hover="data-dropdown-on-hover">
               <li class="nav-item dropdown"><a class="nav-link dropdown-toggle lh-1" href="#!" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-haspopup="true" aria-expanded="false"><span class="uil fs-0 me-2 uil-chart-pie"></span>Home</a>
                 <ul class="dropdown-menu navbar-dropdown-caret">
@@ -1018,5 +1016,6 @@
         </div>
       </div> 
     </main>
+
 
 </body></html>
