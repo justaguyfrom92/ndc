@@ -10,11 +10,20 @@
   <body>
     <main class="main" id="top">
       
-<nav class="navbar navbar-expand-lg bg-body-tertiary navbar-top fixed-top navbar-expand-lg ps-0" id="navbarCombo" data-navbar-top="combo" data-move-target="#navbarVerticalNav">
-      <div class="d-flex flex-wrap justify-content-between mx-4">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTopCollapse" aria-controls="navbarTopCollapse" aria-expanded="true" aria-label="Toggle navigation" style="border: none; box-shadow: none;">
+<nav class="navbar navbar-expand-lg bg-body-tertiary navbar-top fixed-top navbar-expand-lg ps-0 px-3" id="navbarCombo" data-navbar-top="combo" data-move-target="#navbarVerticalNav">
+      
+        <div class="navbar-logo d-flex align-center">
+		<a class="nav-link m-4" id="sidenavbar" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">
+			<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<circle cx="2" cy="2" r="2" fill="currentColor"></circle><circle cx="2" cy="8" r="2" fill="currentColor"></circle><circle cx="2" cy="14" r="2" fill="currentColor"></circle><circle cx="8" cy="8" r="2" fill="currentColor"></circle><circle cx="8" cy="14" r="2" fill="currentColor"></circle><circle cx="14" cy="8" r="2" fill="currentColor"></circle><circle cx="14" cy="14" r="2" fill="currentColor"></circle><circle cx="8" cy="2" r="2" fill="currentColor"></circle><circle cx="14" cy="2" r="2" fill="currentColor"></circle>
+			</svg>
+		</a>
+		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTopCollapse" aria-controls="navbarTopCollapse" aria-expanded="true" aria-label="Toggle navigation" style="
+    border: none;
+">
           <span class="navbar-toggler-icon"></span>
-        </button><div class="navbar-brand ms-3 me-1 me-sm-3 d-none d-sm-block">
+        </button>
+	</div><div class="navbar-brand ms-3 me-1 me-sm-3 d-none d-sm-block">
 		<img src="https://nationaldiversitycouncil.org/wp-content/uploads/2021/02/new-ndc-logo.png" alt="NDC" height="50">
 	</div>
         
@@ -81,7 +90,7 @@
             </div>
           </li>
         </ul>
-      </div>
+
     </nav>
       
       <nav class="navbar navbar-top fixed-top navbar-expand-lg" id="dualNav" style="display:none;">
@@ -903,7 +912,9 @@
           </div>
         </div>
       </nav>
-<div class="content">
+<div class="content" style="
+    display: none;
+">
         <div class="p-5">
           <div class="row g-4">
             <div class="col-12 col-xxl-6">
