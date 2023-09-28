@@ -41,6 +41,16 @@ a.nav-link
 {
     color: rgba(0, 0, 0, 0.65);
 }
+.dropdown-indicator-icon
+{
+    width: 15px;
+}
+
+li.nav-item
+{
+    flex: 0 0 auto;
+    width: 100%;
+}
 .navbar-toggler-humburger-icon
 {
     height: 2.25rem;
