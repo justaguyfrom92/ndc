@@ -51,6 +51,10 @@ ul.nav.parent
 {
     width: 15px;
 }
+.dropdown-item.active, .dropdown-item:active
+{
+    background-color: #cdcdcd;
+}
 
 #offcanvasScrolling li.nav-item
 {
