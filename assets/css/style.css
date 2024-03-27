@@ -99,7 +99,7 @@ svg.svg-inline--fa
 }
 .table > tbody > tr > td
 {
-    padding: 10px !important;
+    padding: 15px !important;
 }
 
 [data-dropdown-on-hover] .dropdown-menu::before
