@@ -129,6 +129,8 @@ svg.svg-inline--fa
 	background-color: #1459bf;
 }
 
+
+
 /** dark background blue **/
 .bg-dark-blue
 {
@@ -139,6 +141,11 @@ svg.svg-inline--fa
 .bg-blue
 {
 	background-color: #008ac9;
+}
+
+.bg-light-grey
+{
+	background-color: rgba(0, 0, 0, 0.4);
 }
 
 .bg-grey
